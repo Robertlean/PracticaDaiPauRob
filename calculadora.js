@@ -15,10 +15,10 @@ function dividir(a, b){
     return a/b
 }
 
-//funcion callback
-function calculadora(a, b, callback){
-    return callback(a,b)
-}
 
-//Exportando el modulo calculadora
-module.exports.calculadora = calculadora
+
+//Exportando los modulos modulos
+module.exports.suma = suma
+module.exports.resta = resta
+module.exports.multiplicar = multiplicar
+module.exports.dividir = dividir
